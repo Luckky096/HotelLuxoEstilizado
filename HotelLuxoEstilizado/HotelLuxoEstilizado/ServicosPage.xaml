@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="HotelLuxoEstilizado.Views.ServicosPage"
+    Title="Serviços"
+    BackgroundColor="#F5F5F5">
+
+    <ScrollView>
+
+        <VerticalStackLayout
+            Padding="20"
+            Spacing="15">
+
+            <Label
+                Text="Serviços Disponíveis"
+                FontSize="28"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                TextColor="#0F4C81"/>
+
+            <Frame
+                CornerRadius="15"
+                BackgroundColor="White">
+
+                <VerticalStackLayout>
+                    <Label
+                        Text="Piscina Aquecida"
+                        TextColor="Black"
+                        FontSize="18"/>
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <Frame
+                CornerRadius="15"
+                BackgroundColor="White">
+
+                <VerticalStackLayout>
+                    <Label
+                        Text="Restaurante Premium"
+                        TextColor="Black"
+                        FontSize="18"/>
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <Frame
+                CornerRadius="15"
+                BackgroundColor="White">
+
+                <VerticalStackLayout>
+                    <Label
+                        Text="SPA"
+                        TextColor="Black"
+                        FontSize="18"/>
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <Frame
+                CornerRadius="15"
+                BackgroundColor="White">
+
+                <VerticalStackLayout>
+                    <Label
+                        Text="Academia"
+                        TextColor="Black"
+                        FontSize="18"/>
+                </VerticalStackLayout>
+
+            </Frame>
+
+            <Frame
+                CornerRadius="15"
+                BackgroundColor="White">
+
+                <VerticalStackLayout>
+                    <Label
+                        Text="Estacionamento Gratuito"
+                        TextColor="Black"
+                        FontSize="18"/>
+                </VerticalStackLayout>
+
+            </Frame>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
